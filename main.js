@@ -1,5 +1,9 @@
 
 class administradorDeProductos{
+    listado
+    constructor(){
+        this.listado = []
+    }
 
     agregarInstrumento({id, instrumento, marca}) {
         this.listado.push(new Instrumentos ({id, instrumento, marca}))
